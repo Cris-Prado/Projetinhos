@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contorno-botao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    background: #000000d6;
+}
+
+.lampada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    color: white;
+}
+
+.theme-dark{
+    display: none;
+}
+
+.contorno-botao .night{
+    height: 70px;
+    width: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    background: #FFFF;
+}
+
+.night{
+    background-color: black;
+    color: rgb(0, 0, 0);
+}
